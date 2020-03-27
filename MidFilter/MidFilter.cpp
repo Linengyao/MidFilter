@@ -15,6 +15,7 @@ int main()
 		cv::Mat MidFilterMat;
 		cap >> frame;
 
+
 		medianBlur(frame, MidFilterMat, 3);
 
 		imshow("frame", frame);
