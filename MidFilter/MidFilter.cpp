@@ -20,6 +20,7 @@ int main()
 		imshow("frame", frame);
 		imshow("result", MidFilterMat);
 		waitKey(30);
+
 	}
 	
 
